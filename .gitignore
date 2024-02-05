@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.db
+*.log
+*.txt
+*.svg
+*.bmp
+*.jpg
+myminapps.egg-info/
+build/
