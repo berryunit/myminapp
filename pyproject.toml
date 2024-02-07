@@ -12,7 +12,7 @@ authors = [{name = "https://github.com/berryunit"}]
 requires-python = ">=3.10"
 classifiers = [
     "Development Status :: 4 - Beta",
-    "Intended Audience :: Python learners :: Python developers :: DIY community",
+    "Intended Audience :: Education :: Developers :: Other Audience",
     "Operating System :: OS Independent",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3"
