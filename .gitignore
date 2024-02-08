@@ -6,5 +6,6 @@ __pycache__/
 *.svg
 *.bmp
 *.jpg
-myminapps.egg-info/
-build/
+**/myminapp.egg-info/
+**/build/
+**/dist/
