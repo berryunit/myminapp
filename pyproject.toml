@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "myminapp"
-version = "0.9.1"
+version = "0.9.2"
 description = "A minimal but complete Python example application"
 readme = "README.md"
 license = {file = "LICENSE"}
