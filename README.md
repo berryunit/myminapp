@@ -1,6 +1,6 @@
 # My Minimal Application (myminapp)
 
-![logo](./myminapp/doc/image/logo.png "logo.png") 
+![image - see https://github.com/berryunit/myminapp](./myminapp/doc/image/logo.png "logo.png") 
 
 - Documentation: /doc/myminapp-manual-de.pdf, /doc/myminapp-manual-en.pdf
 - License: MIT
@@ -25,6 +25,8 @@ To install the application and execute the 'helloworld' command in different way
 ## Step 1 - Install myminapp
 
 Download the release file 'myminapp-*version*.zip' from https://github.com/berryunit/myminapp and unzip it into a directory with read and write access.
+
+*Note: As an example application, myminapp should be unpacked from the release file into a user directory. This is the easiest way to access the source code. Alternatively, the installation can be done via pip.*
 
 The following assumes that the file was unpacked under Linux by user 'u1' to '/home/u1/myminapp'. It is also assumed that Python version 3 can be called up on the system with 'python3'.
 
@@ -73,7 +75,7 @@ Open a browser and enter it in the URL line:
 
 Example image (Mozilla Firefox, myminapp language setting 'de'):
 
-![web](./myminapp/doc/image/web.png "web.png")
+![image - see https://github.com/berryunit/myminapp](./myminapp/doc/image/web.png "web.png")
 
 Terminate the application server by entering the following in the terminal:
 
