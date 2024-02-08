@@ -1,6 +1,6 @@
 # My Minimal Application (myminapp)
 
-![image - see https://github.com/berryunit/myminapp](./myminapp/doc/image/logo.png "./image/logo.png") 
+![image (see repository)](./myminapp/doc/image/logo.png "./myminapp/doc/image/logo.png") 
 
 - Documentation: /doc/myminapp-manual-de.pdf, /doc/myminapp-manual-en.pdf
 - License: MIT
@@ -28,22 +28,24 @@ Die Releasedatei 'myminapp-*Versionsnummer*.zip' von https://github.com/berryuni
 
 *Hinweis: Als Beispiel-Applikation sollte myminapp aus der Release-Datei in ein Benutzerverzeichnis entpackt werden. Dies ist der einfachste Weg, um auf den Quellcode zuzugreifen. Alternativ kann die Installation via pip erfolgen.*
 
-Im Folgenden wird angenommen, dass die Releasedatei unter Linux vom Benutzer 'u1' nach  '/home/u1/myminapp' entpackt wurde. Außerdem wird angenommen, dass Python Version 3 auf dem System mit 'python3' aufzurufen ist.
+Im Folgenden wird angenommen, dass das in der Releasedatei enthaltene Applikationsverzeichnis 'myminapp' vom Benutzer 'u1' nach  '/home/u1/' gestellt wurde. Außerdem wird angenommen, dass Python Version 3 auf dem System mit 'python3' aufzurufen ist.
 
 ## Schritt 2 - Command 'helloworld' via Python-Shell ausführen
 
-1. Die Python shell im Verzeichnis 'home/u1' (oberhalb von myminapp) starten. Dazu eingeben:
+### 2.1 Die Python shell starten
+
+im Verzeichnis 'home/u1' (oberhalb von myminapp) eingeben:
 
 	python3
 
-2. Innerhalb der Python-Shell die folgenden Eingaben machen:
+### 2.2 Innerhalb der Python-Shell eingeben:
 
-    - from myminapp.app import App
-    - app1 = App(1)
-    - app1.perform_command({'cmd':'helloworld', 'value':'Hello World'})
-    - app1.close()
+    from myminapp.app import App
+    app1 = App(1)
+    app1.perform_command({'cmd':'helloworld', 'value':'Hello World'})
+    app1.close()
 
-3. Die Python-Shell verlassen mit:
+### 2.3 Die Python-Shell verlassen mit:
 
 	exit()
 
@@ -67,15 +69,15 @@ Einen Browser öffnen und in die URL-Zeile eingeben:
 
 ### 3.3 - Command 'helloworld' via Web-Frontend ausführen
 
-1. Einen Browser öffnen und in die URL-Zeile eingeben:
+#### Einen Browser öffnen und in die URL-Zeile eingeben:
 
-    - <div style="display: inline">http://localhost:8081/app.html</div>
+<div style="display: inline">http://localhost:8081/app.html</div>
 
-2. Den Command 'helloworld' auswählen und den Befehlsausführungs-Button drücken.
+#### Den Command 'helloworld' auswählen und den Befehlsausführungs-Button drücken.
 
 Beispiel-Bild (Mozilla Firefox, myminapp-Spracheinstellung 'de'):
 
-![image - see https://github.com/berryunit/myminapp](./myminapp/doc/image/web.png "./image/web.png")
+![image (see repository)](./myminapp/doc/image/web.png "./myminapp/doc/image/web.png")
 
 Den Applikationsserver durch folgende Eingabe im Terminal beenden:
 
